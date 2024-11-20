@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+
+<body>
+
+    <h1>Forms</h1>
+    <br>
+    First Name: <input type="first_Name" name="first_Name" id="first_Name">
+    <br>
+    Age: <input type="number" name="age" id="age">
+    <br>
+    Passwords :  <input type="password" name="password" id="password">
+    <br>
+    Date of birth: <input type="date" name="dob" id="dob">
+    <br>
+    <br>
+    Color:       <input type="color" name="text_color" id="text_color">
+    <br>
+    <br>
+    <label for="bold"><strong>Bold</strong></label>
+    <input type="radio" name="font" id="bold" value=""bold>
+    <label for="normal">Normal</label>
+    <input type="radio" name="font" id="normal" value="normal">
+    <br>
+
+    <input type="checkbox" name="accept" id="accept">
+    <label for="accept">I agree</label>
+    <br>
+    <br>
+    <textarea name="comment" id="comment" cols="33" rows="10"></textarea>
+    <br>
+    <br>
+
+    <select name="" id="snack">
+        <option value="Almonds">Almonds</option>
+        <option value="Cheese and Crackers">Cheese and Crackers</option>
+        <option value="Pita and Hummus">Pita and Hummus</option>
+        <option value="Pears">Pears</option>
+    </select>
+
+    <hr>
+    <br>
+
+    <form action="/process" method="post">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder=" Your name...">
+        </div>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="email" placeholder=" Your email...">
+        </div>
+        
+        <div>
+            <input type="checkbox" name="offers" id="offers">
+            <label for="offers">I would like to receive email offers!</label>
+        </div>
+        <input type="submit" name="submit" id="submit" value="Sign Up!">
+
+
+    </form>
+
+
+</body>
+
+</html>
