@@ -25,6 +25,6 @@ The goal of this repository is to understand the fundamentals of HTML and how we
 
 AUTHOR
 
-Vinh Tan Phan  
+Vinh Phan  
 Computer Science Student  
-De Anza College
+
